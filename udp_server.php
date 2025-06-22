@@ -1,6 +1,6 @@
 <?
 $host = "0.0.0.0";
-$port = 7070;
+$port = 8080;
 
 /*
 $pid = shell_exec("ps aux");
