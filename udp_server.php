@@ -66,7 +66,7 @@ while(1)
         
         // Don't send back to the sender
         if($client_ip == $remote_ip && $client_port == $remote_port) {
-            continue;
+            //continue;
         }
         
         $sent = socket_sendto($sock, $buf, strlen($buf), 0, $client_ip, $client_port);
